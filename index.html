@@ -43,10 +43,10 @@ I am a fifth-year Ph.D. student advised by <a href="http://theory.stanford.edu/~
 <h3>Research Interests</h3>
 
 <p>
-In the last few decades, a number of program analysis tools have been developed to help identify security vulnerabilities and improve software quality. Many of these tools rely on access to program source code, an assumption that often fails in practice; for example, calls to native functions, code in third-party libraries, or dynamically loaded code. Sometimes, the source code is available but the specification is missing.
+As software has become pervasive in critical infrastructure, it has simultaneously become incredibly complex, making it difficult for developers to reason about correctness. Programming tools help manage this complexity by automating such reasoning. In the last few decades, a number of program analysis tools have been developed to help identify security vulnerabilities and improve software quality. However, many of these tools rely on the increasingly tenuous assumption that all relevant information is available for analysis. In real systems, there are inevitably parts of the program that are missing (e.g., dynamically loaded code) or very difficult to statically analyze (e.g., native code such as system APIs). Furthermore, the desired property may itself be too complex to specify, e.g., properties of machine learning models.
 
 <p>
-My primary research interests are developing techniques to address these challenges. In particular, my goals are to apply ideas from artificial intelligence, machine learning, and program synthesis, to (i) enable human analysts to interact with the program analysis to achieve their goals, and (ii) automatically infer program properties based on auxiliary information such as usage or execution traces.
+My primary research interests are developing techniques to address these challenges. In particular, my goals are to apply ideas from artificial intelligence, machine learning, and program synthesis, to (i) enable human analysts to interact with the program analysis to achieve their goals, and (ii) automatically infer program properties based on auxiliary information such as usage or execution traces. In general, I believe there is a huge opportunity for incorporating such novel inference techniques into programming tools in a way that substantially improves our ability to develop and maintain complex software.
 
 <br>
 <br>
