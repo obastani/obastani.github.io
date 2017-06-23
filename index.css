@@ -1,0 +1,13 @@
+html {
+    "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.stitle {
+    font-weight: 800;
+    text-align: right;
+}
+
+a:link { color: #990033; }
+a:visited { color: #990033; }
+a:active { color: #990033; }
+a:hover { color: #990033; }
