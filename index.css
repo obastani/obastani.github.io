@@ -7,6 +7,25 @@ html {
     text-align: right;
 }
 
+div.all {
+    max-width: 992;
+    text-align: left;
+}
+
+@media(max-width: 991px) {
+    .stitle {
+        text-align: left;
+	margin-bottom: 0.5em;
+    }
+    div.txt {
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+    }
+    div.all {
+	max-width: 580px;
+    }
+}
+
 a:link { color: #990033; }
 a:visited { color: #990033; }
 a:active { color: #990033; }
